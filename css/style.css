@@ -1,0 +1,77 @@
+body{
+    background-image: url("../img/web-html.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+#container{
+    text-align: center;
+    width: 40%;
+    background-color:lightseagreen;
+    margin-left: 55%;
+    margin-top: 5%;
+    padding: 20px;
+}
+#container h1{
+    font-size: 50px;
+    margin: 20px 0px;
+    text-transform: uppercase;
+}
+input, label{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+input{
+    padding: 10px;
+    margin: 20px auto;
+}
+p a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+}
+input[type="submit"]{
+    width: 30%;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: green;
+    color:bisque;
+    border-radius: 10px;
+}
+input[type="submit"]:hover{
+    background-color: black;
+    color: rgb(108, 6, 241);
+}
+input[type="reset"]{
+    color: red;
+    background-color: white;
+    width: 30%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+input[type="reset"]:hover{
+    color: white;
+    background-color: red;
+}
+.forget:hover{
+    color: red;
+}
+.new:hover{
+    color:blue;
+}
+.already{
+    color: black;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+}
+.already:hover{
+    color: yellow;
+    background-color: black;
+}
